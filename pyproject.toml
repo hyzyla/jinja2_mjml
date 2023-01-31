@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "jinja2_mjml"
+version = "0.1.0"
+description = "Jinja2 integration with MJML"
+authors = ["Yevhenii Hyzyla <hyzyla@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/hyzyla/jinja2_mjml"
+keywords = ["jinja2", "mjml", "email"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mjml-python = "^0.1.0"
+Jinja2 = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.991"
+ruff = "^0.0.238"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
